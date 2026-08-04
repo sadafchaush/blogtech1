@@ -1,0 +1,123 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    background-color: #faf9f5;
+    color: #171717;
+    font-family: Georgia, "Times New Roman", serif;
+    padding: 48px 20px;
+}
+
+/* Main Blog Card */
+.blog-post {
+    width: 100%;
+    max-width: 856px;
+    margin: 0 auto;
+
+    background-color: #ffffff;
+    border: 1px solid #dedbd5;
+
+    padding: 56px 36px 58px;
+}
+
+/* Blog Heading */
+.blog-post h1 {
+    color: #754b2e;
+    font-size: 38px;
+    line-height: 1.2;
+    font-weight: bold;
+
+    margin-bottom: 16px;
+}
+
+/* Author Information */
+.post-info {
+    color: #8b99a5;
+    font-size: 15px;
+
+    margin-bottom: 46px;
+}
+
+/* Blog Image */
+.blog-image {
+       margin-bottom: 42px;
+}
+
+.blog-image img{
+    width: 100%;
+}
+/* Paragraphs */
+.blog-post p {
+    font-size: 20px;
+    line-height: 1.65;
+
+    margin-bottom: 20px;
+}
+
+/* Highlighted Text */
+mark {
+    background-color: #f5d27d;
+    padding: 2px 5px;
+}
+
+/* List Box */
+.blog-post ul {
+    background-color: #f7f5f0;
+    border: 1px solid #eeeae3;
+
+    padding: 18px 42px;
+
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+/* List Items */
+.blog-post li {
+    font-size: 19px;
+    line-height: 1.15;
+}
+
+/* Read More */
+.read-more {
+    margin-top: 20px;
+}
+
+/* Links */
+.blog-post a {
+    color: #754b2e;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 700px) {
+
+    body {
+        padding: 20px 10px;
+    }
+
+    .blog-post {
+        padding: 30px 20px;
+    }
+
+    .blog-post h1 {
+        font-size: 30px;
+    }
+
+    .blog-post p {
+        font-size: 17px;
+    }
+
+    .blog-post li {
+        font-size: 16px;
+    }
+
+    .blog-image {
+        max-width: 100%;
+    }
+}
